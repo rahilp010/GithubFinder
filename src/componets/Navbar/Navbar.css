@@ -13,10 +13,33 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    overflow: hidden;
     justify-content: left;
 }
 
 i{
     font-size: 25px;
     text-indent: 20px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding-inline: 60px;
+}
+
+li{
+    display: flex;
+    gap:20px
+}
+
+
+.link{
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }

@@ -31,6 +31,7 @@ class Users extends Component {
                 <User key={user.id} user={user}></User>
             ))
             }
+            <div></div>
         </div>
     );
         }
